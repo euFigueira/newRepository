@@ -11,6 +11,10 @@ header .header_left {
   flex: 1;
 }
 
+header .header_left h1 {
+  max-width: 10ch;
+}
+
 header .header_left p {
   margin-top: 2rem;
   margin-bottom: 4rem;

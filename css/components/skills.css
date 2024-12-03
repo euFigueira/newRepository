@@ -15,14 +15,19 @@
 
 .skills .skills_content ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+}
+
+.skills .skills_content ul li:hover {
+  transition: .2s;
+  transform: scale(1.2);
 }
 
 .skills .skills_content ul li .image-container {
   background-color: var(--white);
-  padding: 2rem;
-  border-radius: 50%;
+  padding: 1rem;
   width: 7rem;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;

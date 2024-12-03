@@ -3,6 +3,7 @@
   justify-content: space-between;
   gap: 4rem;
   scroll-margin-top: 20rem;
+  align-items: center;
 }
 
 .about .about_left {
@@ -27,10 +28,21 @@ margin-left: -1.2rem;
   padding: 1rem;
 }
 
+.about .about_left ul li a img {
+  height: 38px;
+}
+
+.about .about_left ul li a img:hover {
+  transition: .4s;
+  transform: scale(1.8);
+}
+
 .about .about_right {
   flex: 1;
   max-width: 66rem;
 }
+
+
 
 @media (max-width: 768px) {
   .about {
