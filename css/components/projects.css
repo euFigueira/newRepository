@@ -24,11 +24,21 @@
   margin-bottom: 12rem;
 }
 
+.projects ul li .image {
+  border: 2px solid var(--secondary-color);
+}
+
 .projects ul li .image img {
-  width: 100%;
   min-width: 40rem;
-  max-width: 47rem;
+  max-width: 52rem;
   height: auto;
+  transition: 0.3s;
+}
+
+.projects ul li .image img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 20px 20px 20px -20px #00000070;
 }
 
 .projects ul li .projects_info {
