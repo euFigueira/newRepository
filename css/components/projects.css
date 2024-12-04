@@ -4,16 +4,20 @@
 }
 
 .projects .projects_content {
-  max-width: 56rem;
   text-align: center;
   margin: 0 auto 6rem;
 }
 
 .projects ul li {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 4rem;
+}
+
+.projects_reversed-list {
+  background: var(--light-tertiary-color);
+  padding: 6rem 4rem;
 }
 
 .projects ul li.projects_reversed-list {
@@ -24,7 +28,7 @@
   margin-bottom: 12rem;
 }
 
-.projects ul li .image {
+.projects ul li .image img {
   border: 2px solid var(--secondary-color);
 }
 
