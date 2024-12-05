@@ -67,6 +67,11 @@
   flex-direction: column;
  }
 
+ .projects ul li .image img:hover {
+  transition: 0;
+  transform: scale(1.0);
+ }
+
  .projects ul li .projects_info {
   max-width: 66rem;
  }
