@@ -6,3 +6,7 @@ button.addEventListener('click', function() {
 })
 
 
+//Animação plugin
+if(window.SimpleAnime) {
+  new SimpleAnime()
+}

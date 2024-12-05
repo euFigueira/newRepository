@@ -33,7 +33,7 @@
 }
 
 .projects ul li .image img {
-  min-width: 40rem;
+  min-width: 36rem;
   max-width: 52rem;
   height: auto;
   transition: 0.3s;
@@ -43,6 +43,11 @@
   transition: 0.3s;
   transform: scale(1.1);
   box-shadow: 20px 20px 20px -20px #00000070;
+}
+
+.projects_info a:hover {
+  transition: 0.2s;
+  color: var(--tertiary-color);
 }
 
 .projects ul li .projects_info {
