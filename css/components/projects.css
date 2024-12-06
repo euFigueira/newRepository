@@ -4,13 +4,14 @@
 }
 
 .projects .projects_content {
+  max-width: 56rem;
   text-align: center;
   margin: 0 auto 6rem;
 }
 
 .projects ul li {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 4rem;
 }
@@ -33,10 +34,10 @@
 }
 
 .projects ul li .image img {
-  min-width: 36rem;
-  max-width: 52rem;
+  width: 100%;
+  min-width: 40rem;
+  max-width: 47rem;
   height: auto;
-  transition: 0.3s;
 }
 
 .projects ul li .image img:hover {
@@ -67,14 +68,13 @@
   flex-direction: column;
  }
 
- .projects ul li .image img:hover {
-  transition: 0;
-  transform: scale(1.0);
- }
-
  .projects ul li .projects_info {
   max-width: 66rem;
  }
+
+ .projects_reversed-list {
+  padding: 0rem;
+}
 
  .projects ul li .image img {
   min-width: auto;
